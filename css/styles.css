@@ -4534,37 +4534,13 @@ input[type="button"].btn--primary:focus {
     font-weight: 400;
     font-size: 4.6rem;
     line-height: 1.304;
-    background-image: url(../images/4249935_90954.jpg);
+    /* background-image: url(../images/4249935_90954.jpg); */
     /* background-size: 920px 790px;  */
     background-position: 766px center;
         /* background-attachment: fixed; 이미지를 뷰포트에 고정 */
     background-size: 53% 100%;
 }
 
-/* 미디어 쿼리 추가: 뷰포트 크기에 따라 배경 크기 조정 */
-@media (max-width: 1200px) {
-    .s-contact {
-        background-size: 70%; /* 화면이 1200px 이하일 때 */
-    }
-}
-
-@media (max-width: 800px) {
-    .s-contact {
-        background-size: 100%; /* 화면이 800px 이하일 때 */
-    }
-}
-
-@media (max-width: 600px) {
-    .s-contact {
-        background-size: 120%; /* 화면이 600px 이하일 때 */
-    }
-}
-
-@media (max-width: 400px) {
-    .s-contact {
-        background-size: 150%; /* 화면이 400px 이하일 때 */
-    }
-}
 
 .s-contact .section-header-allcaps {
     color: white;
@@ -4574,7 +4550,7 @@ input[type="button"].btn--primary:focus {
 
 .huge-text {
     color: white;
-    margin-top: 0;
+    margin-top: 40px;
     font-weight: 400;
     font-size: 31px;
     line-height: 1.304;
@@ -4584,6 +4560,13 @@ input[type="button"].btn--primary:focus {
 .s-contact__content [class*="column"]:last-child {
     margin-left: auto;
 }
+
+.column.large-4.medium-12 {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 25px;
+    border-radius: 8px;
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## contact block
